@@ -73,9 +73,11 @@
 }
 .btn {
   padding: 10px 20px;
+  margin-bottom: 10px;
   border: 1px solid #0084ff;
   border-radius: 15px;
   background: #fff;
+  color:#0084ff;
   cursor: pointer;
 }
 .btn:hover {
@@ -132,6 +134,6 @@
 }
 .footer{
   background-color: #172146;
-  padding:25px;
-  margin-bottom: 2px;
+  padding:35px;
+  /* margin-bottom: 2px; */
 }
