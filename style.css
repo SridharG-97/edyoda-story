@@ -1,0 +1,137 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+.head_style {
+  padding: 0px;
+  margin: 0px;
+  background-color: #fff;
+  display: flex;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.logo {
+  height: 8vh;
+  padding: 16px 78px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.logo > h2 {
+  padding: 0px;
+  margin: 0px;
+  color: #0084ff;
+  font-weight: 900;
+}
+.logo > p {
+  padding: 0px;
+  font-style: italic;
+}
+.head_dropdown {
+  display: flex;
+  align-items: center;
+}
+.dropdown_select {
+  padding: 10px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  width: 70%;
+}
+.dropdown_select > option {
+  background-color: #ffff;
+}
+.categories {
+  margin: 15px;
+  flex:0.9;
+  display: flex;
+  
+  justify-content: center;
+  
+}
+.categories_div{
+  display: flex;
+  flex:0.6;
+  flex-direction: column;
+  justify-content: center;  
+  
+
+}
+.category_head {
+  padding: 0px 15px;
+}
+.category_filter {
+  display: flex;
+  align-items: center;
+  margin: 15px 0px;
+}
+.icons {
+  padding: 0px 15px;
+  color: #0084ff;
+}
+.category_btn {
+  padding: 10px 15px;
+}
+.btn {
+  padding: 10px 20px;
+  border: 1px solid #0084ff;
+  border-radius: 15px;
+  background: #fff;
+  cursor: pointer;
+}
+.btn:hover {
+  background-color: #0084ff;
+  color: #fff;
+}
+.select {
+  background-color: #0084ff;
+  color: #fff;
+}
+.blog_card {
+  display: flex;
+  flex-wrap: wrap;
+  flex: 0.5;
+  justify-content: center;
+  margin: 15px 0px;
+  
+}
+.card {
+  width: 18%;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  margin: 10px;
+}
+.card > h3 {
+  margin: 10px 15px;
+  flex-wrap: wrap;
+}
+.card_an {
+  display: flex;
+  flex-direction: column;
+  padding: 0px;
+  justify-content: center;
+  margin: 10px 10px;
+  font-size: 14px;
+}
+.card_an > a {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  padding: 10px 10px;
+}
+.an_para {
+  padding: 0px 5px;
+  color: #000;
+}
+
+.card_para {
+  padding: 0px;
+  margin: 0px 10px;
+  color: rgba(0, 0, 0, 0.6);
+  font-weight: 400;
+  margin-bottom: 20px;
+  line-height: 1.43;
+}
+.footer{
+  background-color: #172146;
+  padding:25px;
+  margin-bottom: 2px;
+}
